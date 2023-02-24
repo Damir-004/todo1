@@ -1,0 +1,37 @@
+*,
+::before,
+::after{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: rgb(189, 189, 189);
+  padding: 20px;
+}
+#root{
+  max-width: 100%;
+  background: white;
+  padding: 5px;
+  display: flex;
+  overflow: hidden;
+}
+ul, li{
+  display: flex;
+}
+li{
+  margin: 0 5px;
+  padding:5px 10px;
+  list-style: none;
+  background: rgb(75, 138, 255);
+}
+button{
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+input{
+  height: 7vh;
+}
